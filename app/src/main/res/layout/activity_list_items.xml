@@ -8,13 +8,13 @@
     android:columnCount="2"
     android:rowCount="2"
     tools:context=".ListItemsActivity">
-    <RadioButton android:id="@+id/radio_pirates"
+    <RadioButton android:id="@+id/radioButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
         android:gravity="fill"
         android:text="@string/RadioButtonText"/>
-    <CheckBox android:id="@+id/checkbox_meat"
+    <CheckBox android:id="@+id/checkBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
@@ -29,7 +29,7 @@
         android:text="@string/SwitchText" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/imageButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
