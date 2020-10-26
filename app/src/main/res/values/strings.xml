@@ -13,4 +13,6 @@
     <string name="ok">Yes</string>
     <string name="cancel">No</string>
     <string name="hint">login name</string>
+    <string name="ChatButtonText">Start Chat</string>
+    <string name="sendButton">Send</string>
 </resources>

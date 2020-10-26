@@ -14,4 +14,6 @@
     <string name="ok">Oui</string>
     <string name="cancel">Non</string>
     <string name="hint">identifiant</string>
+    <string name="ChatButtonText">Commencer Chat</string>
+    <string name="sendButton">Envoyer</string>
 </resources>
