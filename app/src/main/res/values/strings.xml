@@ -15,4 +15,18 @@
     <string name="hint">login name</string>
     <string name="ChatButtonText">Start Chat</string>
     <string name="sendButton">Send</string>
+    <string name="title_activity_test_toolbar">Test Toolbar</string>
+    <string name="snkb_message">You selected item 1</string>
+    <string name="fab">You clicked the floating action button!</string>
+    <string name="returnTitle">Do you want to go back?</string>
+    <string name="enterMsg">Enter a message</string>
+    <string name="name">Danni</string>
+    <string name="testToolbar">Test Toolbar</string>
+    <string name="choice1">Choice 1</string>
+    <string name="choice2">Choice 2</string>
+    <string name="choice3">Choice 3</string>
+    <string name="settings">About</string>
+    <string name="addItem">Add Item</string>
+
+
 </resources>
