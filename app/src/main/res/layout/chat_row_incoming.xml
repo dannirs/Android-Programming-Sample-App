@@ -17,7 +17,7 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/dog_icon" />
+        app:srcCompat="@android:drawable/sym_call_incoming" />
 
 
 </LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_one"
+        android:icon="@drawable/ic_baseline_emoji_food_beverage_24"
+        android:orderInCategory="1"
+        android:title="@string/choice1"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_two"
+        android:icon="@drawable/carrot"
+        android:orderInCategory="2"
+        android:title="@string/choice2"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_three"
+        android:icon="@drawable/taco"
+        android:orderInCategory="3"
+        android:title="@string/choice3"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/about"
+        android:title="@string/settings"
+        app:showAsAction="never" />
+
+
+</menu>
