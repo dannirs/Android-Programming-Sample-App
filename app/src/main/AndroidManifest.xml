@@ -3,7 +3,7 @@
     package="com.example.androidassignments">
 
     <uses-permission android:name="android.permission.CAMERA" />
-
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-feature android:name="android.hardware.camera" />
 
     <application
@@ -13,6 +13,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".WeatherForecast"></activity>
         <activity
             android:name=".TestToolbar"
             android:label="@string/title_activity_test_toolbar"

@@ -44,6 +44,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        final Button weatherButton = findViewById(R.id.weatherForecast);
+        // when the user clicks the button in MainActivity:
+        weatherButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Log.i(ACTIVITY_NAME, "User started Weather Forecast");
+                Intent intent = new Intent(MainActivity.this, WeatherForecast.class);
+                startActivity(intent);
+            }
+        });
     }
 
 

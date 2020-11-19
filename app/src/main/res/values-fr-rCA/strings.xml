@@ -28,5 +28,12 @@
     <string name="choice3">Choix 3</string>
     <string name="settings">Paramètres</string>
     <string name="addItem">Ajouter un item</string>
+    <string name="weatherForecast">Prévisions Météorologiques</string>
+    <string name="currTemp">Température Actuelle:</string>
+    <string name="minTemp">Température Minimale:</string>
+    <string name="maxTemp">Température Maximale:</string>
+    <string name="cityDialog">Ville Introuvable</string>
+    <string name="confirm">OK</string>
+
 
 </resources>
