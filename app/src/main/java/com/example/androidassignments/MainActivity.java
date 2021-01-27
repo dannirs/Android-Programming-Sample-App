@@ -35,7 +35,26 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        final Button toolbarButton = findViewById(R.id.testToolbar);
+        // when the user clicks the button in MainActivity:
+        toolbarButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Log.i(ACTIVITY_NAME, "User started TestToolbar");
+                Intent intent = new Intent(MainActivity.this, TestToolbar.class);
+                startActivity(intent);
+            }
+        });
+        final Button weatherButton = findViewById(R.id.weatherForecast);
+        // when the user clicks the button in MainActivity:
+        weatherButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Log.i(ACTIVITY_NAME, "User started Weather Forecast");
+                Intent intent = new Intent(MainActivity.this, WeatherForecast.class);
+                startActivity(intent);
+            }
+        });
     }
+
 
     protected void onActivityResult (int requestCode, int responseCode, Intent data) {
         super.onActivityResult(requestCode, responseCode, data);

@@ -16,4 +16,24 @@
     <string name="hint">identifiant</string>
     <string name="ChatButtonText">Commencer Chat</string>
     <string name="sendButton">Envoyer</string>
+    <string name="title_activity_test_toolbar">Test Toolbar</string>
+    <string name="snkb_message">Vous avez sélectionné l\'élément 1</string>
+    <string name="fab">Vous avez cliqué sur le bouton d\'action flottant!</string>
+    <string name="returnTitle">Voulez-vous revenir en arrière?</string>
+    <string name="enterMsg">Entrez un message</string>
+    <string name="name">Danni</string>
+    <string name="testToolbar">Test Toolbar</string>
+    <string name="choice1">Choix 1</string>
+    <string name="choice2">Choix 2</string>
+    <string name="choice3">Choix 3</string>
+    <string name="settings">Paramètres</string>
+    <string name="addItem">Ajouter un item</string>
+    <string name="weatherForecast">Prévisions Météorologiques</string>
+    <string name="currTemp">Température Actuelle:</string>
+    <string name="minTemp">Température Minimale:</string>
+    <string name="maxTemp">Température Maximale:</string>
+    <string name="cityDialog">Ville Introuvable</string>
+    <string name="confirm">OK</string>
+
+
 </resources>

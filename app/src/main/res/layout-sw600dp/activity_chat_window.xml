@@ -9,37 +9,43 @@
         android:paddingRight="16dp"
         tools:context=".ChatWindow">
 
-    <ListView
+        <ListView
         android:id="@+id/listView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_above="@id/button"/>
+        android:layout_alignParentEnd="false"
+        android:layout_above="@id/button" />
 
-    <EditText
+        <EditText
         android:id="@+id/editText"
         android:layout_height="wrap_content"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_toLeftOf="@id/button"/>
+            android:layout_toLeftOf="@id/button"/>
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/sendButton"
-        tools:layout_editor_absoluteX="159dp"
-        tools:layout_editor_absoluteY="392dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"/>
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/frame2"/>
 
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/frame2"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/listView"
+        android:layout_toEndOf="@+id/listView"
+        ><!--foreground color for a FrameLayout-->
+
+    </FrameLayout>
 </RelativeLayout>
 
     <!--<?xml version="1.0" encoding="utf-8"?>-->
-
     <!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
     <!--    xmlns:tools="http://schemas.android.com/tools"-->
     <!--    android:layout_width="match_parent"-->
@@ -50,15 +56,13 @@
 
     <!--    <ListView-->
     <!--        android:id="@+id/listView"-->
-    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_width="300dp"-->
     <!--        android:layout_height="match_parent"-->
     <!--        android:layout_above="@+id/button"-->
-    <!--        android:layout_alignParentEnd="true"-->
     <!--        android:layout_alignParentLeft="true"-->
     <!--        android:layout_alignParentStart="true"-->
-    <!--        android:layout_alignParentTop="true">-->
-
-    <!--    </ListView>-->
+    <!--        android:layout_alignParentTop="true"-->
+    <!--        />-->
 
 
     <!--    <EditText-->
@@ -67,20 +71,25 @@
     <!--        android:layout_height="wrap_content"-->
     <!--        android:layout_alignParentBottom="true"-->
     <!--        android:layout_alignParentStart="true"-->
-    <!--        android:layout_toLeftOf="@+id/button"-->
-
-    <!--        android:text=""-->
-
-    <!--        android:visibility="visible" />-->
+    <!--        android:layout_toLeftOf="@+id/button" />-->
 
     <!--    <Button-->
     <!--        android:layout_width="wrap_content"-->
     <!--        android:layout_height="wrap_content"-->
-    <!--        android:text="@string/sendButton"-->
+    <!--        android:text="Send"-->
     <!--        android:id="@+id/button"-->
     <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:layout_toLeftOf="@+id/frame2"-->
+    <!--        />-->
 
-    <!--        android:layout_alignParentEnd="true" />-->
 
+    <!--    <FrameLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:layout_toRightOf="@+id/listView"-->
+    <!--        android:layout_toEndOf="@+id/listView"-->
+    <!--        android:layout_alignParentTop="true"-->
+    <!--        android:id="@+id/frame2"-->
+    <!--        />-->
 
     <!--</RelativeLayout>-->
